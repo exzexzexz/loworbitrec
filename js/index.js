@@ -1,7 +1,7 @@
 (function() {
 
     var scene = new THREE.Scene();
-    var renderer = new THREE.WebGLRenderer( {canvas: document.getElementById('myCanvas'), antialias: true, alpha: false} );
+    var renderer = new THREE.WebGLRenderer( {canvas: document.getElementById('main'), antialias: true, alpha: false} );
     var camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 10000);
     
     
